@@ -1,4 +1,4 @@
-# investigación 002 - terminal aesthetics
+# investigación 002 - terminal aesthetics 
 
 prueba de concepto que replica la estética cyberpunk/terminal de [tallpoppypress.xyz](https://www.tallpoppypress.xyz/) usando únicamente **html, css y javascript vanilla**.
 
