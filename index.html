@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>investigación 002 - terminal aesthetics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú superior con estética terminal -->
+    <nav class="terminal-menu">
+        <div class="logo">[ investigación 002 ]</div>
+        <ul class="menu-items">
+            <li><a href="#home">[ home ]</a></li>
+            <li><a href="#work">[ work ]</a></li>
+            <li><a href="#about">[ about ]</a></li>
+            <li><a href="#contact">[ contact ]</a></li>
+        </ul>
+        <div class="menu-end">[ cart 0 ]</div>
+    </nav>
+
+    <!-- Carrusel principal de imágenes -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <!-- Slide 1 -->
+                <div class="carousel-slide active">
+                    <img src="https://placehold.co/1200x800/000000/00ff00?text=proyecto+01" alt="proyecto 1">
+                    <div class="slide-caption">proyecto alpha [ experimental ]</div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="carousel-slide">
+                    <img src="https://placehold.co/1200x800/0a0a0a/00ff00?text=proyecto+02" alt="proyecto 2">
+                    <div class="slide-caption">proyecto beta [ digital art ]</div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="carousel-slide">
+                    <img src="https://placehold.co/1200x800/141414/00ff00?text=proyecto+03" alt="proyecto 3">
+                    <div class="slide-caption">proyecto gamma [ interactive ]</div>
+                </div>
+                
+                <!-- Slide 4 -->
+                <div class="carousel-slide">
+                    <img src="https://placehold.co/1200x800/1e1e1e/00ff00?text=proyecto+04" alt="proyecto 4">
+                    <div class="slide-caption">proyecto delta [ generative ]</div>
+                </div>
+                
+                <!-- Slide 5 -->
+                <div class="carousel-slide">
+                    <img src="https://placehold.co/1200x800/282828/00ff00?text=proyecto+05" alt="proyecto 5">
+                    <div class="slide-caption">proyecto epsilon [ code art ]</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controles del carrusel -->
+        <button class="carousel-control prev" aria-label="anterior">[ ← ]</button>
+        <button class="carousel-control next" aria-label="siguiente">[ → ]</button>
+        
+        <!-- Indicadores de slide -->
+        <div class="carousel-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+            <span class="indicator" data-slide="4"></span>
+        </div>
+    </section>
+
+    <!-- Sección de descripción -->
+    <section class="description-section">
+        <div class="description-content">
+            <p class="terminal-text">
+                > creamos proyectos que son excelentes, experimentales y accesibles. 
+                todo nuestro trabajo está hecho con código, arte y mucha dedicación. 
+                nos gusta la imperfección, la textura digital y las cosas que se sienten inusuales. 
+                pasamos mucho tiempo pensando en la estética, la interacción y en crear objetos que deleitan.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección de eventos -->
+    <section class="events-section">
+        <h2 class="section-title">[ próximos eventos ]</h2>
+        <div class="events-list">
+            <a href="#" class="event-item">
+                <span class="event-date">21.02.2026</span>
+                <span class="event-name">workshop: creative coding ↗</span>
+            </a>
+            <a href="#" class="event-item">
+                <span class="event-date">27.01.2026</span>
+                <span class="event-name">open call: digital art ↗</span>
+            </a>
+            <a href="#" class="event-item">
+                <span class="event-date">15.03.2026</span>
+                <span class="event-name">exhibition: generative systems ↗</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer con estética terminal -->
+    <footer class="terminal-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>© all rights reserved</p>
+                <p class="footer-note">
+                    investigación 002 opera en el ciberespacio. 
+                    respetamos el pasado, presente y futuro emergente.
+                </p>
+            </div>
+            
+            <div class="footer-right">
+                <div class="footer-links">
+                    <a href="mailto:hello@investigacion002.xyz">hello@investigacion002.xyz</a>
+                    <a href="#">[ instagram ]</a>
+                    <a href="#">[ terms of service ]</a>
+                </div>
+                
+                <div class="newsletter">
+                    <p class="newsletter-title">[ suscríbete al newsletter ]</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="email@inbox.com" required>
+                        <button type="submit">[ submit ]</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-credits">
+            <span>site by manu</span>
+            <span>build with html+css+js</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
